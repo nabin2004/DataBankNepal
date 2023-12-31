@@ -55,7 +55,7 @@ function LeftPanel() {
   return (
     <div className='icons'>
       <div>
-        <span className="material-symbols-outlined">home</span> <span>Home</span>
+        <span className="material-symbols-outlined">home</span>Home
       </div>
       <div>
         <span className="material-symbols-outlined">forum</span> Forum

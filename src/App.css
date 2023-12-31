@@ -60,7 +60,6 @@ box-shadow: 0px 5.4px 5.4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .logo .text .name{
-  width: fit-content;
   color: #000;
 font-family: 'Inter';
 font-size: 16.586px;
@@ -68,18 +67,27 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-top: 1px;
-margin-bottom: -11px;
+margin-bottom: -17px;
+margin-left: -14px;
+
+width: 206.689px;
+height: 24.571px;
+flex-shrink: 0;
 }
 
+
+
 .logo .text .tagline{
-  width: fit-content;
-  color: #000;
+color: #000;
 font-family: Inter;
 font-size: 11.688px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 0;
+}
+
+.logo .text .tag-line{
+  margin-left: -12px;
 }
 
 .logo{
@@ -189,8 +197,9 @@ padding: 10px;
 .div2{
   display: grid;
   grid-template-columns: 1fr 2fr 3fr;
-  padding: 10px;
+  padding: 25px;
   grid-gap: 10px;
+
 }
 
 .parent {
@@ -238,9 +247,10 @@ padding: 10px;
   padding: 10px;
 }
 
-.icons span {
-  padding: 7px;
-  display: grid;
+.icons div {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
 }
 
 .icons {
