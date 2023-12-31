@@ -4,30 +4,26 @@ import './App.css';
 function App(){
   return(
     <div className='App'>  
-    <div className='header'>
-      <Button text='Login'/>
-      <Button text='Sign Up'/>
-      <ThreeDot/>
-    </div>
-     <div class="parent">
-      <div class="div1">
-             <Logo /> 
-             </div>
-
-        <div class="div2"> 
-            <SearchBar /> 
-        </div>
-        
-<div class="div3"> </div>
-            <Button text='Login'/>
-            <Button text='Sign Up'/>
-            <ThreeDot/>
-<div class="div4"> </div>
-<div class="div5"> </div>
-<div class="div6"> </div>
-</div> 
-
-
+       <div class="parent">
+          <div class="div1"> 
+            <Logo />
+          </div>
+          <div class="div2">
+          <Button text="Login" />
+          <Button text='Sign Up' />  
+          <ThreeDot/>
+          </div>
+          <div class="div3"> 
+            <SearchBar />
+          </div>
+          <div class="div4"> 
+          <LeftPanel />
+          </div>
+          <div class="div5"> </div>
+          <div class="div6">
+            <Trending />  
+          </div>
+        </div> 
     </div>
   )
 }
@@ -54,6 +50,39 @@ function Logo(){
     </div>
   )
 }
+
+function LeftPanel() {
+  return (
+    <div className='icons'>
+      <div>
+        <span className="material-symbols-outlined">home</span> <span>Home</span>
+      </div>
+      <div>
+        <span className="material-symbols-outlined">forum</span> Forum
+      </div>
+      <div>
+        <span className="material-symbols-outlined">featured_play_list</span> Services
+      </div>
+      <div>
+        <span className="material-symbols-outlined">map</span> Maps
+      </div>
+      <div>
+        <span className="material-symbols-outlined">alternate_email</span> Contact Us
+      </div>
+      <div>
+        <span className="material-symbols-outlined">newspaper</span> News
+      </div>
+      <div>
+        <span className="material-symbols-outlined">description</span> Terms and Condition
+      </div>
+      <div>
+        <span className="material-symbols-outlined">link</span> Important links
+      </div>
+    </div>
+  );
+}
+
+
 
 function ThreeDot(){
   return(
