@@ -8,6 +8,10 @@ module.exports = {
       colors: {
         'crimson': '#A41034',
       },
+      fontFamily:{
+        'inter': ['Inter', 'sans-serif'],
+        'devnagari' :['Tiro Devanagari Hindi']
+        }
     },
   },
   plugins: [
