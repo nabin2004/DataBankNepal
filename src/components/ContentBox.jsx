@@ -3,7 +3,7 @@ import React from 'react';
 const CustomBox = ({ text, width, height, className }) => {
     const boxStyles = {
         width: '90%',
-        height: '8rem',
+        height: '9rem',
         flexShrink: 0,
         borderRadius: '30px',
         border: '1px solid #000',
