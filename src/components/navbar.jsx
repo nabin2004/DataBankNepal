@@ -7,19 +7,6 @@ import React, { useState, useEffect } from 'react';
 export default function Navbar() {
   const [isFixed, setIsFixed] = useState(false);
 
-  // const handleScroll = () => {
-  //   const scrollY = window.scrollY;
-  //   const triggerScroll = 100; // Adjust this value based on when you want the navbar to become fixed
-  //   setIsFixed(scrollY > triggerScroll);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
   return (
     <div className={`fixed w-full bg-white w-full min-w-screen transition-all duration-300 ${isFixed ? 'fixed top-0 left-0 right-0 z-50' : ''}`}>
       <div className={`fixed bg-white w-full min-w-screen border border-solid border-opacity-15 shadow-md bg-white ${isFixed ? 'relative' : 'absolute'}`}>
