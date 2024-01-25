@@ -13,24 +13,27 @@ function App() {
 
   return (
     <div>
-    <div className=''>
+    <div className='border border-solid border-opacity-15 shadow-md'>
     <Navbar/>
     </div>
-    <div className='flex  w-auto h-full ml-4 mr-4'>
-    <LeftPanel/>
-
- 
-    
-
-      <div className='flex w-full mt-20 pt-4 p-4 pl-3 gap-4 overflow-auto  scroll-smooth  border border-gray-300' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }} >
+    <div className=' mr-4 gap-4'>
+      <div className='flex '>
+      <LeftPanel/>
+      <div className='ml-4 w-full'>
+      <div className='flex mt-20 pt-4 gap-2 overflow-auto  scroll-smooth  border-r border-gray-300' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }} >
             <Tile/>
             <Tile/>
             <Tile/>
             <Tile/>
-            <Tile/>
-            <Tile/>
-      </div> 
       </div>
+      </div>
+
+      </div>
+   
+
+
+      </div>
+
 
       </div>
   

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tile = () => {
   const boxStyles = {
-    width: '90%', // Set width to 100% for responsiveness
+    width: '90%',
     height: '8rem',
     flexShrink: 0,
     borderRadius: '30px',

@@ -22,11 +22,11 @@ export default function Navbar() {
 
   return (
     <div className={`fixed w-full bg-white w-full min-w-screen transition-all duration-300 ${isFixed ? 'fixed top-0 left-0 right-0 z-50' : ''}`}>
-      <div className={` bg-white w-full min-w-screen border border-solid border-opacity-15 shadow-md bg-white ${isFixed ? 'relative' : 'absolute'}`}>
+      <div className={`fixed bg-white w-full min-w-screen border border-solid border-opacity-15 shadow-md bg-white ${isFixed ? 'relative' : 'absolute'}`}>
         <div className='flex justify-between'>
           <Logo />
-          <div className='flex gap-2 p-2'>
-            {/* <Button className='p-4' text='Signup' /> */}
+ 
+          <div className='flex gap-2 p-2 '>
             <Button text='Login' />
             <div className='p-4 h-auto w-auto mt-2'>
               <img src={Tripledot} alt='tripledot' />
