@@ -13,14 +13,15 @@ import Tile from '../components/mobile/tiles'; // Make sure to import or define 
 export default function LeftPanel() {
   return (
     <BrowserRouter>
-      <div className='flex'>
-        <div className="bg-fixed flex-col justify-start gap-1 h-screen border-r border-gray-300 mt-20 text-xs ml-10 bg-white hidden sm:flex">
-          <nav>
+  <div className='flex font-inter font-bold shadow-md before:content-[""] before:block before:w-4 before:h-full before:mr-4 before:bg-gradient-to-r before:from-gray-300 before:to-transparent before:absolute before:-left-4'>
+
+        <div className=" bg-fixed flex-col justify-start gap-1 h-screen border-r border-gray-300 mt-20 text-xs ml-10 hidden sm:flex">
+          <nav className=''>
             <ul>
               <li>
                 <Link to="/">
-                  <div className="p-2 border-b">
-                    <button className="flex gap-2 mt-10">
+                  <div className="p-1 border-b ">
+                    <button className="flex gap-2 mt-10 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white  w-full">
                       <div className='material-symbols-outlined mr-2'>home</div>
                       Home
                     </button>
@@ -30,7 +31,7 @@ export default function LeftPanel() {
               <li>
                 <Link to="/insights">
                   <div className="p-2">
-                    <button className="flex gap-2 mt-10">
+                    <button className="flex gap-2 mt-10 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white  w-full">
                       <div className='material-symbols-outlined mr-2'>Insights</div>
                       Insights
                     </button>
@@ -40,7 +41,7 @@ export default function LeftPanel() {
               <li>
                 <Link to="/download">
                   <div className="pr-4 p-2">
-                    <button className="flex gap-2 mt-2">
+                    <button className="flex gap-2 mt-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white  w-full">
                       <div className='material-symbols-outlined flex mr-2'>download_for_offline</div>Download
                     </button>
                   </div>
@@ -49,7 +50,7 @@ export default function LeftPanel() {
               <li>
                 <Link to="/api">
                   <div className="pr-4 p-2">
-                    <button className="flex gap-2 mt-2">
+                    <button className="flex gap-2 mt-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white">
                       <div className='material-symbols-outlined flex mr-2'>api</div>API
                     </button>
                   </div>
