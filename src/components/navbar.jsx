@@ -1,18 +1,22 @@
 import Logo from './logo'
 import Button from './button'
 import Tripledot from '../assests/tripledot.svg'
-import React, { useState, useEffect } from 'react';
-
+import React from 'react';
+import SearchBar from './searchBar'
 
 export default function Navbar() {
-  const [isFixed, setIsFixed] = useState(false);
 
   return (
-    <div className={`fixed w-full bg-white w-full min-w-screen transition-all duration-300 ${isFixed ? 'fixed top-0 left-0 right-0 z-50' : ''}`}>
-      <div className={`fixed bg-white w-full min-w-screen border border-solid border-opacity-15 shadow-md bg-white ${isFixed ? 'relative' : 'absolute'}`}>
+    <div className=''>
+      <div className={`overlay border border-solid border-opacity-15 shadow-md bg-white fixed w-full top-0 z-10`}>
         <div className='flex justify-between'>
           <Logo />
- 
+          
+          {/* <div>
+              <SearchBar/>
+
+          </div> */}
+          
           <div className='flex gap-2 p-2 '>
             <Button text='Login' />
             <div className='p-4 h-auto w-auto mt-2'>

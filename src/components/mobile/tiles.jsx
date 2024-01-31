@@ -3,8 +3,6 @@ import backgroundImage from './image.png';
 
 const Tile = () => {
   const boxStyles = {
-    width: '90%',
-    height: '8rem',
     flexShrink: 0,
     borderRadius: '30px',
     border: '1px solid #000',
@@ -14,7 +12,7 @@ const Tile = () => {
 
   return (
     <div style={boxStyles} className='p-20'>
-      Nabin Kripa Oli
+      Data Bank Nepal
     </div>
   );
 };

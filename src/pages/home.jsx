@@ -1,14 +1,16 @@
-// Home.js
 import React from 'react';
-
+import Tile from '../components/mobile/tiles';
 
 
 const Home = () => {
-  return(
-      <div className='stroke-black font-bold text-stroke'>
-        <div className='flex gap-3'><h1 className='text-[#A41034] text-6xl font-devnagari '>उखान टुक्का </h1><h1 className='text-6xl font-devnagari '> होइन,</h1></div><br/>
-        <div className='flex gap-3'><h1 className='text-[#A41034] text-6xl font-inter'>DATA</h1><h1 className='text-6xl font-devnagari '> प्रयोग गर्छ</h1><h1 className='text-[#A41034] text-6xl font-devnagari '> नेपालिले</h1></div>
-      </div>
+  return (
+          <div className='flex flex-row ml-5 pt-4 w-s gap-2 scroll-auto overflow-x-auto border-r border-gray-300' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            <Tile />
+            <Tile />
+            <Tile />
+            <Tile />
+            <Tile />
+          </div>
   );
 };
 

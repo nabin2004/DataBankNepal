@@ -3,8 +3,8 @@ import ApiBox from '../components/ApiBox';
 
 const APIs = () => {
   return (
-    <div className='flex w-screen overflow-auto scroll-smooth pt-4 pb-20' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-      <div className='flex flex-wrap justify-center gap-2 overflow-auto scroll-smooth pt-4 pb-20 w-[80%]' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+    <div className=' overflow-auto scroll-smooth' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+      <div className='flex flex-wrap justify-center gap-2 overflow-auto scroll-smooth pt-4' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
 
         <ApiBox text='Foreign Nepalese Students Data API' />
         <ApiBox text='Weather Information API' />
@@ -38,7 +38,6 @@ const APIs = () => {
         <ApiBox text='Social Media Analytics API' />
         <ApiBox text='Population Demographics API' />
         <ApiBox text='Economic Indicators API' />
-        <ApiBox text='Geospatial Data API' />
 
       </div>
     </div>

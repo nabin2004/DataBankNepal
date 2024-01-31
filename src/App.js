@@ -21,10 +21,10 @@ import Errored from './pages/Errored';
 function App() {
   return (
     <div>
-      <div className='border border-solid border-opacity-15 shadow-md'>
+      <div className='border-b border-solid border-opacity-15 shadow-md'>
         <Navbar />
       </div>
-      <div className='fixed mr-4 gap-4'>
+      <div className='fixed mt-20'>
        <LeftPanel/>
           </div>
         </div>
