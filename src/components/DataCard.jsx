@@ -2,7 +2,7 @@ import React from 'react';
 
 const DataCard = () => {
   return (
-      <div className='flex flex-row justify-between w-[50%] p-4 '>
+      <div className='flex flex-row justify-between w-[75%] p-4 '>
         <div className='flex flex-col gap-5 overflow-auto scroll-smooth' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
 
           <div>

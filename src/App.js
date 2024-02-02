@@ -26,6 +26,7 @@ function App() {
       </div>
       <div className='fixed mt-20'>
        <LeftPanel/>
+
           </div>
         </div>
   );

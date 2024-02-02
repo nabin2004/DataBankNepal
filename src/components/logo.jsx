@@ -10,12 +10,12 @@ const OverlayMenu = ({ isOpen, onClose }) => {
     <div className={`overlay ${isOpen ? 'block' : 'hidden'} fixed inset-0 z-50 bg-black bg-opacity-50`} onClick={onClose}>
       <div className="menu-container absolute top-0 right-0 h-full bg-white p-4">
         <ul>
-          <li>Home</li>
-          <li>Insights</li>
-          <li>Download</li>
-          <li>API</li>
-          <li>Contact</li>
-          <li>About</li>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/insights'>Insights</a></li>
+          <li><a href='/download'>Download</a></li>
+          <li><a href='/api'></a></li>
+          <li><a href='/contact'>Contact</a></li>
+          <li><a href='/about'>About</a></li>
         </ul>
       </div>
     </div>
@@ -24,7 +24,6 @@ const OverlayMenu = ({ isOpen, onClose }) => {
 
 const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Function to toggle menu state
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };

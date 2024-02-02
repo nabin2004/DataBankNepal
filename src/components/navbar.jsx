@@ -12,10 +12,10 @@ export default function Navbar() {
         <div className='flex justify-between'>
           <Logo />
           
-          {/* <div>
+          <div>
               <SearchBar/>
 
-          </div> */}
+          </div>
           
           <div className='flex gap-2 p-2 '>
             <Button text='Login' />
