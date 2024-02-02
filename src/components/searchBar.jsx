@@ -14,7 +14,7 @@ export default function SearchBar() {
         const allButtons = document.querySelectorAll('button');
         const matchedButtons = Array.from(allButtons).filter(button => button.textContent.toLowerCase().includes(searchValue));
         setMatchingButtons(matchedButtons);
-        setSearchPerformed(searchValue !== ''); // Set searchPerformed to false if searchValue is empty
+        setSearchPerformed(searchValue !== ''); 
     };
 
     return (
