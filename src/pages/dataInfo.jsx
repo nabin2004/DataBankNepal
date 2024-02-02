@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Outlet, Route, Routes } from 'react-router-dom';
 import DataCard from '../components/DataCard';
 import Tile from '../components/mobile/tiles';
 
@@ -20,14 +20,15 @@ const DataInfo = () => {
         </div>
 
         <div className='flex flex-row gap-10 pl-4 font-bold'>
-          <Link to='/datainfo/card'><button>Data Card</button></Link>
-          <Link to='/datainfo'>Code</Link>
+          <Link to='/insights/datacard'><button>Data Card</button></Link>
+          <Link to='/insights/datacard/code'>Code</Link>
           <button>Discussion</button>
         </div>
       </div>
       {/*///////////////////////////////////////////////////////////////////////// */}
       <div className='flex flex-row justify-between w-[70%] p-4 '>
-        <DataCard />
+        {/* <DataCard /> */}
+        <Outlet />
 
       </div>
     </div>

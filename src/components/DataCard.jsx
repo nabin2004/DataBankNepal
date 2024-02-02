@@ -19,10 +19,6 @@ const DataCard = () => {
             <h2 className='font-bold'>Research Methodologies</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam praesentium ex modi ipsa assumenda sunt eligendi dignissimos atque, iure obcaecati cumque placeat mollitia in sapiente esse nostrum officia id vitae.</p>
           </div>
-          <div>
-            <h2 className='font-bold'>Research Methodologies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam praesentium ex modi ipsa assumenda sunt eligendi dignissimos atque, iure obcaecati cumque placeat mollitia in sapiente esse nostrum officia id vitae.</p>
-          </div>
         </div>
       </div>
   );
