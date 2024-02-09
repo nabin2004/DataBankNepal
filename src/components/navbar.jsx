@@ -18,7 +18,10 @@ export default function Navbar() {
           </div>
           
           <div className='flex gap-2 p-2 '>
+            <div className='hidden sm:block'>
             <Button text='Login' />
+            </div>
+            
             <div className='p-4 h-auto w-auto mt-2'>
               <img src={Tripledot} alt='tripledot' />
             </div>

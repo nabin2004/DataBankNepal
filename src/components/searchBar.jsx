@@ -22,7 +22,7 @@ export default function SearchBar() {
             <div className="search-wrapper display-inline flex gap-2">
                 <input 
                     type="text" 
-                    className="search-input hover:bg-white hover:text-black placeholder:text-white placeholder:font-inter mt-4 px-4 py-2 rounded-full border-2 border-black bg-[#A41034] shadow-md focus:outline-none focus:border-gray-400 text-white"
+                    className="search-input hover:bg-white hover:text-black placeholder:text-white placeholder:font-inter mt-4 px-1 py-2  sm:px-10 sm:py-2 w-auto rounded-full border-2 border-black bg-[#A41034] shadow-md focus:outline-none focus:border-gray-400 text-white"
                     value={searchKey} 
                     onChange={handleInputChange} 
                     placeholder="Search..." 
