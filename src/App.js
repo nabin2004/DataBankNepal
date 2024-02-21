@@ -24,7 +24,7 @@ function App() {
       <div className='border-b border-solid border-opacity-15 shadow-md'>
         <Navbar />
       </div>
-      <div className='fixed mt-20'>
+      <div className='sm:fixed mt-20'>
        <LeftPanel/>
 
           </div>

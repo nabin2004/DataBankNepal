@@ -34,12 +34,12 @@ const ContactForm = () => {
     return (
         <div className='inter flex '>
             <div>
-            <h1 className="text-2xl font-semibold pt-10 pl-20 ml-20">Contact</h1>
+            <h1 className="text-2xl font-semibold pt-10 pl-20 ml-20">CONTACT</h1>
            
             <div className="w-full mx-auto  rounded-md shadow-md p-20 h-screen">
                 
                 {isSubmitting ? (
-                    <div className="text-center">Sending data to the server...</div>
+                    <div className="text-center w-screen">Sending data to the server...</div>
                 ) : (
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">
@@ -177,13 +177,17 @@ const ContactForm = () => {
                 </div>
             </div>
         
-            <p className='p-4 m-20 w-75% hidden sm:flex'>
+            <p className='p-4 m-20 w-75% hidden sm:flex text-justify'>
                 This is a contact form for reporting any data available on our platform that is causing disturbance to your life. 
                 We understand that certain information can be harmful or disruptive, and we take your concerns seriously. 
                 By filling out this form, you can help us identify and address any issues related to the data on our platform.
                 Please provide as much detail as possible about the specific data that is causing disturbance, including any relevant URLs or descriptions.
                 Our team will review your report and take appropriate action to ensure the quality and safety of our platform.
+                Thank you for helping us maintain a safe and reliable data repository for everyone.
+
             </p>
+
+            
              </div>
       
     
