@@ -32,7 +32,7 @@ const ContactForm = () => {
     }, [isSubmitting]);
 
     return (
-        <div className='inter flex '>
+        <div className='inter flex font-bold h-screen'>
             <div>
             <h1 className="text-2xl font-semibold pt-10 pl-20 ml-20">CONTACT</h1>
            
@@ -87,7 +87,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className='mr-2'
         />
-        <label htmlFor="male" className="mr-4 font-inter">Male</label>
+        <label htmlFor="male" className="mr-4 font-inter font-bold">Male</label>
 
         <input
             type="radio"
@@ -98,7 +98,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className="mr-2"
         />
-        <label htmlFor="female" className="mr-4 ">Female</label>
+        <label htmlFor="female" className="mr-4 font-bold">Female</label>
 
         <input
             type="radio"
@@ -109,7 +109,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className="mr-2"
         />
-        <label htmlFor="other" className="mr-4">Other</label>
+        <label htmlFor="other" className="mr-4 font-bold">Other</label>
 
         {formData.gender === "other" && (
             <input
@@ -125,7 +125,7 @@ const ContactForm = () => {
     </div>
 </div>
 
-<div className="mb-4">
+<div className="mb-4 font-bold">
     <label htmlFor="urgency" className="block text-sm font-medium text-gray-400">
         Urgency
     </label>
@@ -158,7 +158,7 @@ const ContactForm = () => {
                                 name="message"
                                 value={formData.message}
                                 onChange={handleChange}
-                                className="mt-1 p-2 w-[75%] border border-black rounded-md"
+                                className="mt-1 p-2 w-auto border border-black rounded-md"
                                 required
                             ></textarea>
                         </div>
@@ -177,7 +177,7 @@ const ContactForm = () => {
                 </div>
             </div>
         
-            <p className='p-4 m-20 w-75% hidden sm:flex text-justify'>
+            <p className='p-4 m-20 w-75% hidden text-justify md:block'>
                 This is a contact form for reporting any data available on our platform that is causing disturbance to your life. 
                 We understand that certain information can be harmful or disruptive, and we take your concerns seriously. 
                 By filling out this form, you can help us identify and address any issues related to the data on our platform.

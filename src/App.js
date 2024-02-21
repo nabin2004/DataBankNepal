@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar';
-import LeftPanel from './components/leftcomponent';
+import RoutingDef from './components/leftcomponent';
 // import CustomBox from './components/box'
 // import Trending from './components/trending'
 // import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
@@ -25,7 +25,7 @@ function App() {
         <Navbar />
       </div>
       <div className='sm:fixed mt-20'>
-       <LeftPanel/>
+       <RoutingDef/>
 
           </div>
         </div>
@@ -33,6 +33,6 @@ function App() {
 }
 
 const root = document.getElementById('root');
-ReactDOM.createRoot(root).render(<LeftPanel />);
+ReactDOM.createRoot(root).render(<RoutingDef />);
 
 export default App;

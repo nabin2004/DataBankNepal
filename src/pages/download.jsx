@@ -12,7 +12,7 @@ const Download = () => {
 
 
   return( 
-    <div  className='flex flex-col w-screen pl-10 gap-2 overflow-auto scroll-smooth pt-4 pb-20' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+    <div  className='flex flex-col sm:pr-20 sm:w-screen pl-10 gap-2 overflow-auto scroll-smooth pt-4 pb-20' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
     <InsightsBox    text="Download data used in Urban Health 2022 Nepal.csv" />
     <InsightsBox    text="Download Report for Education Trends Analysis" />
     <InsightsBox    text="Download Economic Outlook Report" />

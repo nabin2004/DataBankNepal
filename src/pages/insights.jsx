@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Insights = () => {
   return(
-    <div className='flex flex-col w-screen pl-10 gap-2 overflow-auto scroll-smooth pt-4 pb-20' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+    <div className='flex flex-col sm:pr-20 sm:w-screen pl-10 gap-2  scroll-smooth pt-4 pb-20' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
       <Link to="/insights/datacard"><InsightsBox text='Health Data 2021 Nepal' /></Link>
       <Link to="/insights/datacard"><InsightsBox text='Education Trends Analysis' /></Link>
       <Link to="/insights/datacard"><InsightsBox text='Economic Outlook Report' /></Link>
