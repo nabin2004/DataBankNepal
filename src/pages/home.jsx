@@ -17,6 +17,7 @@ const Home = () => {
         <Tile imageUrl={pokhara} text='Tourism Data Source'/>
         <Tile imageUrl={mountain} text='Mid western Data Source'/>
         
+        
       </div>
      
 
