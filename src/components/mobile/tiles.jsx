@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Tile = ({ imageUrl,text }) => {
   const boxStyles = {
@@ -14,10 +15,16 @@ const Tile = ({ imageUrl,text }) => {
   };
 
   return (
-    <div style={boxStyles} className='inter font-inter font-bold p-20 border border-white'>
+<div style={boxStyles} className='inter font-inter font-bold p-20 border border-white text-white flex justify-end'>
+  <Link to='/insights/datacard'>
+    <span style={{ textShadow: '4px 4px 8px rgba(0, 0, 0, 2)' }}>
       {text}<br/>
       <p>Data Bank Nepal</p>
-    </div>
+    </span>
+  </Link>
+</div>
+
+
   );
 };
 

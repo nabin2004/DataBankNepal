@@ -21,7 +21,7 @@ const LeftPanel = () => {
               <ul>
                 <li>
                   <p className="text-[9px] text-slate-400">ESSENTIALS</p>
-                  <Link to="/">
+                  <Link to="/" className="active-link">
                     <div className=" border-b ">
                       <button className="flex gap-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white">
                         <div className="material-symbols-outlined mr-2">home</div>
@@ -32,7 +32,7 @@ const LeftPanel = () => {
                 </li>
                 <li>
                   <p className="text-[9px] text-slate-400">DATA PANEL</p>
-                  <Link to="/insights">
+                  <Link to="/insights" className="active-link">
                     <div className="">
                       <button className="flex gap-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white">
                         <div className="material-symbols-outlined mr-2">
@@ -44,7 +44,7 @@ const LeftPanel = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/download">
+                  <Link to="/download" className="active-link">
                     <div className="">
                       <button className="flex gap-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white">
                         <div className="material-symbols-outlined mr-2">
@@ -56,7 +56,7 @@ const LeftPanel = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/api">
+                  <Link to="/api" className="active-link">
                     <div className="border-b">
                       <button className="flex gap-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white">
                         <div className="material-symbols-outlined flex mr-2">
@@ -69,7 +69,7 @@ const LeftPanel = () => {
                 </li>
                 <li>
                   <p className="text-[9px] text-slate-400">REPORT AND CONTACT</p>
-                  <Link to="/contact">
+                  <Link to="/contact" className="active-link">
                     <div className="">
                       <button className="flex gap-2 mt-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white">
                         <div className="material-symbols-outlined flex mr-2">
@@ -79,7 +79,7 @@ const LeftPanel = () => {
                       </button>
                     </div>
                   </Link>
-                  <Link to="/about">
+                  <Link to="/about" className="active-link">
                     <div className="border-b">
                       <button className="flex gap-2 mt-2 hover:bg-[#A41034] p-4 rounded-lg w-full hover:text-white">
                         <div className="material-symbols-outlined flex mr-2">

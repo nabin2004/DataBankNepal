@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom';
 function App() {
   return (
     <div>
-      <div className='border-b border-solid border-opacity-15 shadow-md'>
+      <div className='border-b border-solid border-opacity-15 shadow-md '>
         <Navbar />
       </div>
       <div className='sm:fixed mt-20'>

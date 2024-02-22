@@ -8,8 +8,8 @@ export default function Navbar() {
 
   return (
     <div className='flex justify-between'>
-      <div className={`overlay border border-solid border-opacity-15 shadow-md bg-white fixed w-full top-0 z-10`}>
-        <div className='flex justify-between'>
+      <div className={`overlay border border-solid border-opacity-15 shadow-md bg-white fixed w-full  top-0 z-10`}>
+        <div className='flex justify-between pb-2'>
           <Logo />
           
           <div>

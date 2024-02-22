@@ -32,14 +32,14 @@ const ContactForm = () => {
     }, [isSubmitting]);
 
     return (
-        <div className='inter flex font-bold h-screen w-screen'>
+        <div className='inter flex font-bold h-screen w-screen pb-20'>
             <div>
             <h1 className="text-2xl font-semibold pt-10 text-center">CONTACT</h1>
            
-            <div className="w-full mx-auto  rounded-md shadow-md p-20 h-screen">
+            <div className="w-full mx-auto  rounded-md shadow-md p-20 sm:h-screen">
                 
                 {isSubmitting ? (
-                    <div className="text-center w-screen">Sending data to the server...</div>
+                    <div className="text-center sm:w-screen">Sending data to the server...</div>
                 ) : (
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">

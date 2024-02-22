@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='p-6 mt-10 mb-20'>
+    <div className='p-6 mt-10 mb-20 pb-20'>
       <h1 className='text-center text-4xl font-bold pb-4'>ABOUT</h1>
       <p className='text-justify'>
         Welcome to our company's About Us page! We are a team of dedicated professionals committed to providing valuable data and insights to our users.
