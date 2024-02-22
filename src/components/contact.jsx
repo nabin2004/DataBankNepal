@@ -32,9 +32,9 @@ const ContactForm = () => {
     }, [isSubmitting]);
 
     return (
-        <div className='inter flex font-bold h-screen'>
+        <div className='inter flex font-bold h-screen w-screen'>
             <div>
-            <h1 className="text-2xl font-semibold pt-10 pl-20 ml-20">CONTACT</h1>
+            <h1 className="text-2xl font-semibold pt-10 text-center">CONTACT</h1>
            
             <div className="w-full mx-auto  rounded-md shadow-md p-20 h-screen">
                 
@@ -134,7 +134,7 @@ const ContactForm = () => {
         name="urgency"
         value={formData.urgency}
         onChange={handleChange}
-        className="mt-1 p-2 border rounded-md border-black  p-2  border placeholder:text-white rounded-md  hover:bg-white hover:text-black placeholder:font-inter border-black bg-[#A41034] shadow-md focus:outline-none focus:border-gray-400 text-white ${window.innerWidth < 400 ? 'sm:w-10' : ''}`"
+        className="mt-1 p-2 border placeholder:text-white rounded-md  hover:bg-white hover:text-black placeholder:font-inter border-black bg-[#A41034] shadow-md focus:outline-none focus:border-gray-400 text-white ${window.innerWidth < 400 ? 'sm:w-10' : ''}`"
         required
     >
         <option value="">Select urgency level</option>

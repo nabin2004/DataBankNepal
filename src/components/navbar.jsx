@@ -7,7 +7,7 @@ import SearchBar from './searchBar'
 export default function Navbar() {
 
   return (
-    <div className=''>
+    <div className='flex justify-between'>
       <div className={`overlay border border-solid border-opacity-15 shadow-md bg-white fixed w-full top-0 z-10`}>
         <div className='flex justify-between'>
           <Logo />
@@ -17,7 +17,7 @@ export default function Navbar() {
 
           </div>
           
-          <div className='flex gap-2 p-2 '>
+          <div className='flex gap-2 '>
             <div className='hidden sm:block'>
             <Button text='Login' />
             </div>
