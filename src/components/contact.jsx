@@ -177,7 +177,7 @@ const ContactForm = () => {
                 </div>
             </div>
         
-            <p className='p-4 m-20 w-75% pr-20 hidden text-justify md:block'>
+            <p className='p-4 m-20 w-50% sm:pr-40 sm:pt-30 hidden text-justify md:block'>
                 This is a contact form for reporting any data available on our platform that is causing disturbance to your life. 
                 We understand that certain information can be harmful or disruptive, and we take your concerns seriously. 
                 By filling out this form, you can help us identify and address any issues related to the data on our platform.
