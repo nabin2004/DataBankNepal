@@ -1,0 +1,29 @@
+{
+  "hero": [
+    {
+      "title": "Welcome to Data Bank Nepal",
+      "intro": "In an era where information is power, Data Bank Nepal stands at the forefront of transforming how decisions are made in Nepal.",
+      "ref": "0"
+    }
+  ],
+  "stats": [
+    {
+      "content": "Dataset Downloads",
+      "title": "51",
+      "icon": "download",
+      "ref": "1"
+    },
+    {
+      "content": "API Queries Run",
+      "title": "31",
+      "icon": "sync",
+      "ref": "2"
+    },
+    {
+      "content": "Total Datasets",
+      "title": "26",
+      "icon": "database",
+      "ref": "3"
+    }
+  ]
+}
