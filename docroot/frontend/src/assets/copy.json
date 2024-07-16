@@ -1,0 +1,29 @@
+{
+  "hero": [
+    {
+      "title": "Welcome to Data Bank Nepal",
+      "intro": "Our mission is to provide unparalleled access to accurate, comprehensive, and actionable data, enabling individuals, businesses, and policymakers to make informed, evidence-based decisions. We utilize rigorous statistical methods and modern data science techniques, including data engineering, to ensure the reliability and relevance of our data offerings.",
+      "ref": "0"
+    }
+  ],
+  "stats": [
+    {
+      "content": "Dataset Downloads",
+      "title": "5",
+      "icon": "download",
+      "ref": "1"
+    },
+    {
+      "content": "API Queries Run",
+      "title": "31",
+      "icon": "sync",
+      "ref": "2"
+    },
+    {
+      "content": "Total Datasets",
+      "title": "26",
+      "icon": "database",
+      "ref": "3"
+    }
+  ]
+}
